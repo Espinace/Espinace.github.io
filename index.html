@@ -4,6 +4,21 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Bruno Espinace · Backend Engineer</title>
+
+  <!-- Open Graph / LinkedIn preview -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://Espinace.github.io" />
+  <meta property="og:title" content="Bruno Espinace · Backend Engineer" />
+  <meta property="og:description" content="Backend Engineer with 4+ years of experience in microservices and APIs for banking and financial systems. Java, Spring Boot, cloud-native." />
+  <meta property="og:image" content="https://Espinace.github.io/thumbnail.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+  <!-- Twitter/X card (LinkedIn também lê) -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Bruno Espinace · Backend Engineer" />
+  <meta name="twitter:description" content="Backend Engineer with 4+ years of experience in microservices and APIs for banking and financial systems. Java, Spring Boot, cloud-native." />
+  <meta name="twitter:image" content="https://Espinace.github.io/thumbnail.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet" />
@@ -418,7 +433,7 @@
       const t = translations[lang];
       document.documentElement.lang = lang === 'pt' ? 'pt-BR' : 'en';
       document.title = lang === 'pt'
-        ? 'Bruno Espinace · Backend Engineer'
+        ? 'Bruno Espinace · Desenvolvedor Backend'
         : 'Bruno Espinace · Backend Engineer';
 
       document.querySelectorAll('[data-i18n]').forEach(el => {
